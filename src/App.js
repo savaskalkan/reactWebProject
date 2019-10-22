@@ -22,7 +22,7 @@ class App extends Component {
         <div className="App">
           <header className="App-header" style={{height:300, minHeight:300, maxHeight:300}}>
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">ToDo Redux app</h1>
+            <h1 className="App-title">Wellcome ToDo Redux app</h1>
           </header>
           <ToDO />
         </div>

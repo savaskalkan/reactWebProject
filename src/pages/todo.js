@@ -83,7 +83,7 @@ class ToDO extends Component {
                         name="item"
                         onChange={this.handleChange}
                     />
-                    <Button onClick={this.handleSubmit} >Add</Button>
+                    <Button onClick={this.handleSubmit} >ekle</Button>
                 </div>
                 <div>
                     <Grid item container justify="space-evenly" alignItems="center">
