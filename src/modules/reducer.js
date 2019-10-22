@@ -28,7 +28,7 @@ const todoReducer = (state = defaultState, action) => {
       let newState = _.cloneDeep(state);
       let index = _.findIndex(newState.items, { id: action.payload });
       console.log("ns",newState.items[index]) 
-      newState.items[index].description = "selam";
+      newState.items[index].description = "hello";
       return newState;
     }
 
